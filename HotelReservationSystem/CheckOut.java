@@ -107,8 +107,8 @@ public class CheckOut extends JFrame {
                         c.s.executeUpdate(deleteSQL);
                         c.s.executeUpdate(updateSQL);
                         JOptionPane.showMessageDialog(null, "Check Out Successful");
-//                        new Reception().setVisible(true);
                         setVisible(false);
+                        new Reception().setVisible(true);
                     } catch (SQLException e1) {
                         e1.printStackTrace();
                     }
@@ -125,6 +125,7 @@ public class CheckOut extends JFrame {
                 public void actionPerformed(ActionEvent e) {
                     new Reception().setVisible(true);
                     setVisible(false);
+                    new Reception();
                 }
             });
             btnExit.setBounds(160, 200, 100, 25);

@@ -14,7 +14,7 @@ public class HotelManagementSystem extends JFrame implements ActionListener {
         setSize(1300, 430);
         setLayout(null);
         setLocationRelativeTo(null);
-        setUndecorated(true); // Remove close, minimize, maximize buttons
+        setUndecorated(true);
 
         // Background Image
 
