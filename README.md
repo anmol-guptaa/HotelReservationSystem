@@ -13,11 +13,13 @@ The Admin Panel is restricted to authorized personnel only (e.g., Managers or Ad
 ## Key Features:
 
 1. Add Employee
+
 Register new employees and store their details, such as name, job title, and contact information.
 
 
 
 2. Add Room
+
 Add or update information about hotel rooms, including their price, bed type, and availability.
 
 
@@ -33,50 +35,62 @@ The Reception Panel is accessible to receptionists to handle day-to-day operatio
 ## Key Features:
 
 1. New Customer Form
+
 Register new customers and assign rooms based on availability.
 
 
 2. Room
+
 View and manage room availability, cleanliness status, and pricing.
 
 
 
 3. Customer Info
+
 Access customer details, including check-in and check-out dates.
 
 
 4. Check-Out
+
 Process customer check-outs and update room availability in the database.
 
 
 5. Update Check-In
+
 Modify customer check-in details if necessary.
 
 
 6. Search Room
+
 Quickly find available rooms based on criteria like bed type or price.
 
 
 7. Department
+
 View hotel departments and their budgets.
 
 
 8. All Employee Info
+
 Display details of all employees working at the hotel.
 
 
 9. Pick-Up Service
+
 Assign drivers and vehicles for customer pick-up services.
 
 
 10. Log Out
+
 Safely log out of the Reception Panel and return to the login screen.
 
 
 ## Prerequisites
 
 • Java Development Kit (JDK)
+
 • MySQL Database
+
 • Java Swing Library
 
  
@@ -84,14 +98,14 @@ Safely log out of the Reception Panel and return to the login screen.
 
 1. Admin Panel:
 
-Restricted to managers or administrators.
+-> Restricted to managers or administrators.
 
-Accessible only to authorized personnel with high-level permissions.
+-> Accessible only to authorized personnel with high-level permissions.
 
 
 
 2. Reception Panel:
 
-Designed for receptionists to perform their daily operations efficiently.
+-> Designed for receptionists to perform their daily operations efficiently.
 
-No password is required for this panel, but access is limited to non-sensitive functions, ensuring the security of critical data.
+-> No password is required for this panel, but access is limited to non-sensitive functions, ensuring the security of critical data.
